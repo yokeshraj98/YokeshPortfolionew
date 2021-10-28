@@ -38,9 +38,9 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Progressive Web Applications in normal and SPA Stacks"),
     emoji("⚡ Integration of third party services such as Firebase/ AWS"),
   ],
 
@@ -161,7 +161,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false, // Set false to hide this section, defaults to true
 };
@@ -211,20 +211,12 @@ const achievementSection = {
       title: "Full Stack Development",
       subtitle: "Completed Certifcation from GUVI.",
       image: require("./assets/images/mern6.jpg"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        {
-          name: "Final Project",
-          url: "",
-        },
-      ],
     },
 
     {
       title: "Post Graduate Diploma in Banking Management",
       subtitle: "Completed Certifcation from Times Pro",
       image: require("./assets/images/bfsi.jpg"),
-      footerLink: [{ name: "Certification", url: "" }],
     },
   ],
   display: true, // Set false to hide this section, defaults to true
